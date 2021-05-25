@@ -1,1 +1,84 @@
 @charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+body {
+    font-family: ;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+h1 {
+    margin-left: 30px;
+    line-height: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav li {
+    margin-right: 40px;
+}
+
+/* メイン */
+
+.topimage {
+    vertical-align: bottom;
+    margin-bottom: 70px;
+}
+
+.main {
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.question {
+    font-size: 23px;
+    font-weight: bold;
+    background: linear-gradient(transparent 60%, #ffc1ad 50%);
+    margin-bottom: 15px;
+    margin-left: 70px;
+}
+
+.one {
+    width: 310px;
+}
+
+.two, .three {
+    width: 200px;
+}
+
+.four, .six {
+    width: 450px;
+}
+
+.five {
+    width: 470px;
+}
+
+.seven {
+    width: 770px;
+}
+
+
+.answer {
+    margin-bottom: 30px;
+    margin-left: 70px;
+    line-height: 2;
+}
