@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap');
 
 * {
     padding: 0;
@@ -10,7 +11,7 @@ img {
 }
 
 body {
-    font-family: ;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .nav {
@@ -18,6 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 62px;
+    font-weight: bold;
 }
 
 h1 {
@@ -28,57 +30,67 @@ h1 {
 .nav ul {
     list-style-type: none;
     display: flex;
-    margin-right: 30px;
+    padding-right: 30px;
 }
 
 .nav li {
-    margin-right: 40px;
+    margin: 20px;
 }
 
 /* メイン */
 
 .topimage {
-    vertical-align: bottom;
+    text-align: center;
     margin-bottom: 70px;
 }
 
 .main {
-    width: 1000px;
+    width: 800px;
     margin: auto;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
-.question {
-    font-size: 23px;
-    font-weight: bold;
-    background: linear-gradient(transparent 60%, #ffc1ad 50%);
-    margin-bottom: 15px;
-    margin-left: 70px;
+h2 {
+    border-bottom: solid 10px #ffc1ad;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
-
-.one {
-    width: 310px;
-}
-
-.two, .three {
-    width: 200px;
-}
-
-.four, .six {
-    width: 450px;
-}
-
-.five {
-    width: 470px;
-}
-
-.seven {
-    width: 770px;
-}
-
 
 .answer {
-    margin-bottom: 30px;
-    margin-left: 70px;
+    margin-bottom: 40px;
     line-height: 2;
+}
+
+
+/* ここからタブレット */
+@media screen and (max-width: 1024px)
+{
+
+.topimage img {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    width: 600px;
+}
+
+.nav ul {
+    display: none;
+}
+
+
+}
+
+
+/* ここからスマホ */
+@media screen and (max-width: 599px)
+{
+
+.main {
+    width: 300px;
+}
+
+
 }
