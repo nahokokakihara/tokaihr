@@ -10,12 +10,6 @@ img {
     vertical-align: bottom;
 }
 
-.clearfix {
-    content: "";
-    display: block;
-    clear: both;
-}
-
 body {
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -31,6 +25,7 @@ h1 {
     align-items: center;
     height: 62px;
     font-weight: bold;
+    margin-bottom: 50px;
 }
 
 .pc_list {
@@ -183,7 +178,6 @@ input[type="checkbox"]:checked ~ .back {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .open {
