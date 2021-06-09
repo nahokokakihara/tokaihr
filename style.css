@@ -146,7 +146,6 @@ aside,
 
 
 /* ここからタブレット */
-
 @media screen and (max-width: 768px)
 {
 
@@ -158,14 +157,7 @@ aside,
 }
 
 .main {
-    width: 100%;
-}
-
-.more_1 a,
-.more_2 a {
-    bottom: 50px;
-    padding: 0 20px 7px 20px;
-    font-size: 16px;
+    width: 400px;
 }
 
 .pc_list {
@@ -187,7 +179,6 @@ aside {
     transition: all 0.2s;
     right: -1000px;
     font-weight: bold;
-    z-index: 1;
 }
 
 .smartphone_list li {
@@ -225,6 +216,7 @@ input[type="checkbox"]:checked ~ .back {
 }
 
 }
+
 
 
 /* ここからスマホ */
