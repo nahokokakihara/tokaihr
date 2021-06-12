@@ -123,13 +123,14 @@ a {
 }
 
 .line1 {
-    width: 30px;
+    width: 28px;
     height: 3px;
     background-color: #000;
-    margin: 4px 0;
+    margin: 4px auto;
 }
 
-.line2 {    width: 20px;
+.line2 { 
+    width: 18px;
     height: 3px;
     background-color: #000;
     margin: 4px auto;
@@ -299,6 +300,7 @@ input[type="checkbox"]:checked ~ .content {
     bottom: 20px;
     padding: 0 15px 4px 15px;
     font-size: 12px;
+    border: solid 1px #000;
 }
 
 .more_2 a {
@@ -306,6 +308,7 @@ input[type="checkbox"]:checked ~ .content {
     bottom: 15px;
     padding: 0 15px 4px 15px;
     font-size: 12px;
+    border: solid 1px #000;
 }
 
 .flex {
