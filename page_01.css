@@ -101,7 +101,7 @@ h2 {
     width: 26px;
     height: 3px;
     background-color: #000;
-    margin: 4px 0;
+    margin: 4px auto;
 }
 
 .line2 { 
@@ -112,7 +112,7 @@ h2 {
 }
 
 .line3 {
-    width: 10px;
+    width: 7px;
     height: 3px;
     background-color: #000;
     margin: 4px auto;
