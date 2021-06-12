@@ -202,8 +202,7 @@ input[type="checkbox"]:checked ~ .content {
   /* 768px以下になったとき */
   @media screen and (max-width: 768px) {
 
-    .block_1 img,
-    .block_2 img {
+    .topimage img {
         width:100%;
         max-width: 100%;
         height: auto;
@@ -214,7 +213,7 @@ input[type="checkbox"]:checked ~ .content {
     }
 
     .main {
-        width: 100%;
+        width: 500px;
     }
 
     h1 {
@@ -223,20 +222,6 @@ input[type="checkbox"]:checked ~ .content {
 
     .menu-pc {
         display: none;
-    }
-
-    .more_1 a {
-        right: 40px;
-        bottom: 50px;
-        padding: 0 20px 4px 20px;
-        font-size: 16px;
-    }
-    
-    .more_2 a {
-        left: 50px;
-        bottom: 50px;
-        padding: 0 20px 4px 20px;
-        font-size: 16px;
     }
 
     .footer {
@@ -265,21 +250,7 @@ input[type="checkbox"]:checked ~ .content {
 }
 
 .main {
-    width: 100%;
-}
-
-.more_1 a {
-    right: 30px;
-    bottom: 20px;
-    padding: 0 15px 4px 15px;
-    font-size: 12px;
-}
-
-.more_2 a {
-    left: 30px;
-    bottom: 15px;
-    padding: 0 15px 4px 15px;
-    font-size: 12px;
+    width: 300px;
 }
 
 .flex {
