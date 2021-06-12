@@ -3,20 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>ディレクター紹介</title>
+<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+<title></title>
 <link href="page_02.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+    <div class="header">
+        <h1>
+            <a href="https://tokai-hr.com/"><img src="img/h1.jpg" alt="東海HR" width="160px"></a>
+        </h1>
 
-    <div class="box">
-        <div class="pc_nav">
-            <h1>
-                <a href="https://tokai-hr.com/">
-                <img src="img/h1.jpg" alt="東海HR" width="160px">
-                </a>
-            </h1>
-
+    <!-- pcのときに表示するナビゲーション -->
+        <div class="menu-pc">
             <ul class="pc_list">
                 <li><a href="https://tokai-hr.com/case">過去の発注事例</a></li>
                 <li><a href="https://tokai-hr.com/interview">インタビュー</a></li>
@@ -25,20 +24,22 @@
                 <li><a href="#">ディレクター紹介</a></li>
                 <li><a href="https://tokai-hr.com/#faq">FAQ</a></li>
             </ul>
-        </div> <!-- .pc_nav -->
+        </div> <!-- .menu-pc -->
+    </div> <!-- .header -->
+
+    <!-- スマホのときに表示するナビゲーション -->
+        <div class="menu-smartphone">
+
+            <input type="checkbox" id="input">
+
+            <div class="line-box">
+                <label for="input"><div class="line1"></div><div class="line2"></div><div class="line3"></div></label>
+            </div> <!-- .line-box -->
 
 
-        <div class="smartphone_box">
-
-            <input id="menu" type="checkbox" />
-            <label for="menu" class="open"><img src="img/menubutton.jpg" alt="メニューボタン"></label>
-            <label for="menu" class="back"></label>
-
-            <aside>
-
-                <label for="menu" class="close">×</label>
-
+            <div class="content">
                 <ul class="smartphone_list">
+                    <label for="input" class="close">×</label>
                     <li><a href="https://tokai-hr.com/case">過去の発注事例</a></li>
                     <li><a href="https://tokai-hr.com/interview">インタビュー</a></li>
                     <li><a href="https://tokai-hr.com/blog">ブログ</a></li>
@@ -46,49 +47,44 @@
                     <li><a href="#">ディレクター紹介</a></li>
                     <li><a href="https://tokai-hr.com/#faq">FAQ</a></li>
                 </ul>
-            </aside>
-        </div> <!-- .smartphone_box -->
-    </div> <!-- .box -->
+            </div> <!-- .content -->
+        </div> <!-- .menu-smartphone -->
+                
+
+        <p class="topimage">
+            <img src="img/tokaihr2_2.jpg" alt="齋藤剛">
+        </p>
+        
+        <div class="main">
+                <h2>好きなスポーツは何ですか？</h2>
+                <p class="answer">スノボ・ボルダリング
+                    どちらも得意ではないですが楽しむのが好きです。</p>
+        
+                <h2>趣味・特技は何ですか？</h2>
+                <p class="answer">趣味はゲーム(ポケモン、スマブラ)、動画鑑賞・ドライブ。<br>
+                    最近はめっきりポケモンです。動画鑑賞は、Youtubeでポケモン実況みたり、
+                    アマゾンプライムで映画やドラマを見ています。
+                    車は持っていませんが、長期休みはレンタカーを借りて旅行に行くのが好きです。<br>
+                    特技は友達の全く似てないモノマネ。駐車です。</p>
+        
+                <h2>現在の仕事を始めたきっかけは何ですか？</h2>
+                <p class="answer">もともと業務委託で仕事をしていて、流れで入社することになりました笑<br>
+                    入社を決めた理由は、環境が良さそうだったこと・働き方の自由度(リモートOK)・幅広い業界に携われることです。</p>
+        
+                <h2>仕事をしていて一番楽しい時はいつですか？</h2>
+                <p class="answer">自分の知らないことに出会える時。
+                    自分が作ったものが世に出る時。
+                    自分よりも遥かにすごい方々と関われる時。</p>
+        
+                <h2>仕事をする上で譲れないものは何ですか？</h2>
+                <p class="answer">メリハリ。みんなとコミュニケーションをとることは大切にしたいです。</p>
+        
+                <h2>「ここだけは他社に負けない」と誇りを持っているところはどこですか？</h2>
+                <p class="answer">柔軟性。さまざまな業界の方々とともに多様に繋がり、仕事をしていけるところがあると思います。</p>
+        
+        </div> <!--.main-->
 
 
-
-
-
-
-
-
-    <p class="topimage">
-        <img src="img/tokaihr2_2.jpg" alt="齋藤剛">
-    </p>
-
-    <div class="main">
-            <h2>好きなスポーツは何ですか？</h2>
-            <p class="answer">スノボ・ボルダリング
-                どちらも得意ではないですが楽しむのが好きです。</p>
-
-            <h2>趣味・特技は何ですか？</h2>
-            <p class="answer">趣味はゲーム(ポケモン、スマブラ)、動画鑑賞・ドライブ。<br>
-                最近はめっきりポケモンです。動画鑑賞は、Youtubeでポケモン実況みたり、
-                アマゾンプライムで映画やドラマを見ています。
-                車は持っていませんが、長期休みはレンタカーを借りて旅行に行くのが好きです。<br>
-                特技は友達の全く似てないモノマネ。駐車です。</p>
-
-            <h2>現在の仕事を始めたきっかけは何ですか？</h2>
-            <p class="answer">もともと業務委託で仕事をしていて、流れで入社することになりました笑<br>
-                入社を決めた理由は、環境が良さそうだったこと・働き方の自由度(リモートOK)・幅広い業界に携われることです。</p>
-
-            <h2>仕事をしていて一番楽しい時はいつですか？</h2>
-            <p class="answer">自分の知らないことに出会える時。
-                自分が作ったものが世に出る時。
-                自分よりも遥かにすごい方々と関われる時。</p>
-
-            <h2>仕事をする上で譲れないものは何ですか？</h2>
-            <p class="answer">メリハリ。みんなとコミュニケーションをとることは大切にしたいです。</p>
-
-            <h2>「ここだけは他社に負けない」と誇りを持っているところはどこですか？</h2>
-            <p class="answer">柔軟性。さまざまな業界の方々とともに多様に繋がり、仕事をしていけるところがあると思います。</p>
-
-    </div> <!--.main-->
 
     <div class="footer">
         <div class="flex">
@@ -110,7 +106,7 @@
         </div> <!-- .flex -->
 
         <p>&copy; 2020 TOKAI HR Inc.</p>
-    </div>
+    </div> <!-- .footer -->
 
 </body>
 </html>
