@@ -28,14 +28,6 @@ h1 {
 }
 
 /* pcナビゲーション */
-.pc_nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 62px;
-    font-weight: bold;
-    margin-bottom: 50px;
-}
 
 .pc_list {
     list-style-type: none;
@@ -184,7 +176,7 @@ input[type="checkbox"]:checked ~ .content {
     width: 1000px;
     margin: auto;
     font-weight: bold;
-    padding: 50px 30px;
+    padding: 50px 0px;
 }
 
 .flex {
@@ -194,6 +186,7 @@ input[type="checkbox"]:checked ~ .content {
 .footer ul {
     list-style-position: inside;
     list-style-type: none;
+    padding: 0 30px;
 }
 .footernav_one li,
 .footernav_two li {
@@ -241,6 +234,10 @@ input[type="checkbox"]:checked ~ .content {
         height: auto;
     }
 
+    .header {
+        margin-bottom: 20px;
+    }
+
     .main {
         width: 100%;
     }
@@ -265,6 +262,11 @@ input[type="checkbox"]:checked ~ .content {
         bottom: 50px;
         padding: 0 20px 4px 20px;
         font-size: 16px;
+    }
+
+    .footer {
+        width: 100%;
+
     }
     
 
